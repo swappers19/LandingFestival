@@ -1,0 +1,51 @@
+
+.todo{
+    display: flex;
+    justify-content: center;
+    background: #a80077;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #66ff00, #a80077);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66ff00, #a80077); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    
+
+}
+.tod{
+    height: 300px;
+    width: 300px;
+    border: black 1px solid;
+    animation-name: colors;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    border-radius: 30%;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.olv{
+    display: flex;
+    justify-content: center;
+}
+.ent1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+@keyframes colors{
+    0%{
+        background-color:#40E0D0 ;
+    }
+    50%{
+        background-color: #FF8C00;
+    }
+    100%{
+        background-color: #FF0080;
+    }
+}
